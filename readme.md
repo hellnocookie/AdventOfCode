@@ -8,3 +8,12 @@
 | ----- | ---- |
 | Day 1 |      |
 | Day 2 |      |
+
+
+# Run
+
+```bash
+make up
+make run file=1-1.py
+make down
+```

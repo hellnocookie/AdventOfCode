@@ -1,11 +1,8 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Dec  1 19:07:07 2021
+import os
 
-@author: Irini
-"""
+current_dir = os.path.dirname(os.path.abspath(__file__))
+file = open(os.path.join(current_dir, 'files', '1-1.txt'))
 
-file = open('../files/1-1.txt')
 content = file.read().split('\n')
 first = content[0]
 content.pop(0)
